@@ -2,6 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  const name = "Josh";
+  const currentDate = new Date();
+  const year = currentDate.getFullYear();
+
   return (
     <div className="App">
       <header className="App-header">
@@ -24,10 +29,21 @@ function App() {
           <li>Tony</li>
           <li>Walter</li>
           <li>Saul</li>
-
         </ul>
 
+
+
+
+
       </header>
+
+
+
+      <div>
+        <p>Created by {name}</p>
+        <p>Copyright {year}</p>
+
+      </div>
     </div>
   );
 }

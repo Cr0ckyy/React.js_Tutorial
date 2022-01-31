@@ -4,7 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+//
+const  test = "TEST "
+const  tes2t = "TEST dddd "
+
+
+
 ReactDOM.render(
+
+
+
+
+
 
     // Todo: What to show
   <React.StrictMode>
